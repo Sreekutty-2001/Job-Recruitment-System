@@ -1,0 +1,45 @@
+.image {
+    background-image: url(../../assests/image3.webp);
+    width: 95rem;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.writting-one {
+    color: white;
+    padding-top: 230px;
+    padding-right: 750px;
+}
+
+.writting-two {
+    color: white;
+    padding-right: 770px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search {
+    width: 250px;
+    height: 35px;
+    color: skyblue;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    margin-right: 770px;
+    margin-top: 30px;
+    cursor: pointer;
+    /* padding-right: 30px; */
+}
+
+.search:hover {
+    color: white;
+    background-color: skyblue;
+}
+
+.search-icon {
+    margin-right: 120px;
+    margin-top: 10px;
+}
