@@ -1,0 +1,85 @@
+.bgc-img{
+    background-image: url(../../assests/lap\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width:1257px;
+padding-top: 50px;
+}
+.Search-writting{
+    color: white;
+    margin-top: 200px;
+}
+.Search-para{
+    color: white;
+    
+}
+.job-title{
+margin-right: 20px;
+width: 200px;
+height: 35px;
+border-radius: 5px 10px 5px 10px;
+cursor: pointer;
+border-style: none;
+}
+.city{
+margin-right:20px;
+height: 35px;
+width: 130px;
+border-radius: 5px 10px 5px 10px;
+cursor: pointer;
+border-style: none;
+}
+.find-job{
+    margin-right:20px;
+    height: 35px;
+    width: 120px;
+    border-radius: 5px 10px 5px 10px;
+    border-style: none;
+    cursor: pointer;
+    background-color:rgb(154, 69, 38); 
+    color: white;
+}
+.job-title:hover{
+    background-color: black;
+    color: white;
+}
+.city:hover{
+    background-color:black ;
+    color: white;
+}
+.find-job:hover{
+    background-color:rgb(122, 46, 18);
+    color: black;
+}
+.ul{
+    background-color: aqua;
+    list-style: none;
+    display: flex;
+    margin-left: 950px;
+    
+    /* position: relative; */
+}
+.login{
+    /* background: red; */
+    margin-top:-380px ;
+    width: 70px;
+    height: 25px;
+    color: white;
+    margin-left: 30px;
+cursor: pointer;
+}
+.signup{
+    margin-top:-380px ;
+    width: 70px;
+    height: 25px;
+    margin-left: 30px;
+    color: white;
+    cursor: pointer;
+}
+.login:hover{
+    color: black;
+}
+.signup:hover{
+    color: black;
+}

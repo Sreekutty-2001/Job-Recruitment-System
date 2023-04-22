@@ -6,6 +6,7 @@
     background-size: cover;
 
 
+
 }
 
 .writting-one {
@@ -21,25 +22,20 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.search {
-    width: 250px;
-    height: 35px;
-    color: skyblue;
-    font-size: 18px;
-    background-color: white;
+#home-link {
+    text-decoration: none;
+    color:skyblue;
+    width: 100px;
+    height: 27px;
+    position: relative;
+    top: 12px;
     border: none;
-    margin-right: 770px;
-    margin-top: 30px;
-    cursor: pointer;
-    /* padding-right: 30px; */
+    font-size: large;
+    display: inline-block;
+    background-color: white;
+    margin-right: 750px;
 }
-
-.search:hover {
+#home-link:hover{
     color: white;
     background-color: skyblue;
-}
-
-.search-icon {
-    margin-right: 120px;
-    margin-top: 10px;
 }
