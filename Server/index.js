@@ -1,11 +1,9 @@
 const express = require("express");
 const app = express();
 const port = 5000
+const userRoutes = require("./Routes/userRoutes")
 
-
-app.get("/user",(req,res)=>{
-    res.send("Hello")
-})
+app.use("/api/v1/user/",userRoutes)
 
 
 app.listen(port,()=>{
